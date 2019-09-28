@@ -1,5 +1,3 @@
-use std::fs;
-
 struct Token {
     typ: String,
     val: String,
@@ -8,6 +6,7 @@ struct Token {
 fn main() {
     let x: String = "Number".to_string();
     let y: String = "56".to_string();
+    let token = Token{ typ: x, val: y};
 
-    println!("Hello, world!");
+    println!("{} {}", token.typ, token.val);
 }
