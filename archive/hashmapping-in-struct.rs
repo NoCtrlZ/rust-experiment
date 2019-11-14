@@ -20,4 +20,5 @@ fn main() {
 	);
 
 	println!("{:?}", map.mapping);
+	println!("{}", map.mapping["The Adventures of Sherlock Holmes"])
 }
